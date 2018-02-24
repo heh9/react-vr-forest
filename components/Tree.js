@@ -14,7 +14,7 @@ export default ({position, height, crownColor, treeColor}) => {
         heightSegments={10}
         style={{
           color: crownColor,
-          opacity: Math.random(),
+          opacity: Math.random() * 0.5 + 0.5,
           transform: [{translate: [position[0], position[1] + height / 2, position[2]]}]
         }}
       />

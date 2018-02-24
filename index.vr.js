@@ -12,7 +12,6 @@ export default class rvr_forest extends React.Component {
   render() {
     return (
       <View>
-        <Pano source={asset('bg.png')}/>
         <Forest
           trees={80}
           perimeter={100}
