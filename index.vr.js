@@ -13,6 +13,12 @@ export default class rvr_forest extends React.Component {
     return (
       <View>
         <Pano source={asset('bg.png')}/>
+        <Forest
+          trees={80}
+          perimeter={100}
+          crownColors={['#016549', '#87b926', '#b1c96b']}
+          treeColors={['#533118', '#624e2c', '#8d6815']}
+        />
       </View>
     );
   }
